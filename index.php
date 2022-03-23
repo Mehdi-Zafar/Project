@@ -16,6 +16,7 @@ $result = $con->query("SELECT Picture FROM cards ORDER BY id DESC");
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+
   <style>
     nav li a.navbar-brand:hover {
       text-decoration: none;
@@ -77,6 +78,7 @@ $result = $con->query("SELECT Picture FROM cards ORDER BY id DESC");
     <?php endfor ?>
   </div>
   </div>
+  <button class="btn">Button</button>
   <a href="#navbar-brand" class="backtotop">Back to top</a>
   <footer>
     <h3>Copyright 2022 Real Estate</h3>
@@ -94,6 +96,7 @@ $result = $con->query("SELECT Picture FROM cards ORDER BY id DESC");
       alert("You clicked a button!");
     }
   </script>
+  <script src="script.js"></script>
 </body>
 
 </html>
