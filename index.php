@@ -79,9 +79,9 @@ $result = $con->query("SELECT Picture FROM cards ORDER BY id DESC");
   </div>
   </div>
   <button class="btn">Button</button>
-  <a href="#navbar-brand" class="backtotop">Back to top</a>
+  <a href="#navbar-brand" class="backtotop">Back to top</a><br>
   <footer>
-    <h3>Copyright 2022 Real Estate</h3>
+    <h3>Copyright &copy; 2022 Real Estate</h3>
   </footer>
   <script>
     function func1() {

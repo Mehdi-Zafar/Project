@@ -60,7 +60,7 @@
   </script>
 </body>
 <footer>
-  <h3>Copyright 2022 Real Estate</h3>
+  <h3>Copyright &copy; 2022 Real Estate</h3>
 </footer>
 
 </html>
